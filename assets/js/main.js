@@ -30,4 +30,4 @@ if (age < 18) {
 
 /* PRINTING FINAL PRICE FOR THE USER */
 
-console.log("The price of your ticket is:" + price)
+console.log("The price of your ticket is:" + price.toFixed(2))
