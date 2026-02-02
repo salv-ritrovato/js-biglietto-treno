@@ -13,5 +13,3 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 
 100km, 10 anni => prezzo corretto:  €16.80
 100km, 70 anni => prezzo corretto: €12.60
-
-Buon divertimento e confermate lettura come al solito :babyyoda:
