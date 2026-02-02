@@ -1,18 +1,19 @@
 /* Tools:
 - User's custom input (numero km da percorrere + età passeggero)
+- Variables
 - Math operators
 - Conditionals (if, else) */
 
 /* VARIABLES */
 /* I'm using parseInt for age because it's always a whole number, whereas I use parseFloat for kilometers because they can have decimals */
 
-const kilometers = parseFloat(prompt('How many kilometers do you want to travel?'))
-const age = parseInt(prompt('How old are you?'))
-const price = kilometers * 0.21
+const kilometers = parseFloat(prompt('How many kilometers do you want to travel?'));
+const age = parseInt(prompt('How old are you?'));
+let price = kilometers * 0.21;
 
 /* TESTING IF IT WORKS */
 
-console.log(kilometers, age)
+console.log(kilometers, age);
 
 
 /* IF/ELSE */
@@ -30,4 +31,4 @@ if (age < 18) {
 
 /* PRINTING FINAL PRICE FOR THE USER */
 
-console.log("The price of your ticket is:" + price.toFixed(2))
+console.log("The price of your ticket is:" + price.toFixed(2) + "€");
