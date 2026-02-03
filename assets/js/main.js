@@ -15,7 +15,6 @@ let price = kilometers * 0.21;
 
 console.log(kilometers, age);
 
-
 /* IF/ELSE */
 /* IF age is less than 18, apply a 20% discount  */
 /* ELSE IF age is greater than 65, apply a 40% discount  */
